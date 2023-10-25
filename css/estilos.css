@@ -30,6 +30,7 @@ nav {
   background-color: beige;
   z-index: 100;
   padding: 10px ;
+  border-bottom: 1px solid black;
 }
 
 
@@ -592,6 +593,17 @@ textarea.form-input {
 .cards1 {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(../imagenes/1600w-NmcFlhJ1GXY.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  filter: opacity();
+  
+  
+}
+.cards2 {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../imagenes/fondo.jpg);
   display: flex;
   align-items: center;
   justify-content: center;

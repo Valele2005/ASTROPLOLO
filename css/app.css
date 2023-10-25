@@ -197,7 +197,7 @@ p {
 }
 
 .content{
-    height: 50vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -251,10 +251,13 @@ p {
     background-color: #101010;
 }
 .price{
-    background: url(../imagenes/tecnologia.jpeg) no-repeat center;
+    
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../imagenes/tecnologia.jpeg);
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
+    
 }
 
 .contact{
