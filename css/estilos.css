@@ -590,11 +590,13 @@ textarea.form-input {
 }
 
 .cards1 {
-  background-color: azure;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../imagenes/1600w-NmcFlhJ1GXY.png);
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
+  filter: opacity();
   
   
 }
@@ -651,7 +653,7 @@ textarea.form-input {
 }
 .mapaUbi {
   
-  margin-top: 10px;
+  margin-top: 170px;
 }
 
 .img{
@@ -713,4 +715,32 @@ font-size: 50px;
 	
 	75% {margin-left: -300%;}
 	100% {margin-left: -300%;}
+}
+
+/* section */
+
+.pollo23 {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pollo23 h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.pollo23 h3 {
+  color: #555;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.pollo23 p {
+  color: #777;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
 }
