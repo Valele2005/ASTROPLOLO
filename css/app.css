@@ -2,10 +2,15 @@
 /*importaciones*/
 @import "headerG.css";
 @import "global.css";
+@import "footer.css";
+@import "catalogo.css";
+@import "contacto.css";
+@import "slider.css";
+@import "mapa.css";
 
 
 
-
+/* hero de pagina app */
 .header{
     margin-top: 170px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../imagenes/app.jpg);

@@ -9,6 +9,7 @@ nav {
     z-index: 100;
     padding: 10px ;
     border-bottom: 1px solid black;
+   
   }
   
   
@@ -28,12 +29,14 @@ nav {
   nav ul {
     text-align: center;
     margin-right: 20px;
+   
   }
   
   nav ul li {
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
+    
   }
   
   nav ul li a {
@@ -42,6 +45,7 @@ nav {
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: uppercase;
+    
   }
   
   /* nav animacion de botones */
