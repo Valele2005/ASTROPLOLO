@@ -1,162 +1,11 @@
-* {
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
-  list-style: none;
-  box-sizing: border-box;
-}
+/* codigo creado por Juan Carvajal - Valentina Cortes */
+/*importaciones*/
+@import "headerG.css";
+@import "global.css";
 
-h1 {
-  font-size: 3.3em;
-}
-h2 {
-  font-size: 2.7em;
-  color: orange;
-}
-p {
-  font-size: 1.25em;
-}
-
-/* header = creacion de el header */
-
-/* barra de navegaciones */
-nav {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: beige;
-  z-index: 100;
-  padding: 10px ;
-}
-
-
-
-.enlace {
-  position: absolute;
-  
-}
-
-.logo {
-  height: 100px;
-  width: 100px;
-  margin: 5px;
-  
- 
-}
-
-nav ul {
-  text-align: center;
-  margin-right: 20px;
-}
-
-nav ul li {
-  display: inline-block;
-  line-height: 80px;
-  margin: 0 5px;
-}
-
-nav ul li a {
-  color: black;
-  font-size: 18px;
-  padding: 7px 13px;
-  border-radius: 3px;
-  text-transform: uppercase;
-}
-
-/* nav animacion de botones */
-
-li a:hover {
-  font-size: 19px;
-  transition: 0.2s;
-  border-bottom: 1px solid black;
-  border-top: 1px solid black;
-}
-
-.checkbtn {
-  font-size: 30px;
-  color: #fff;
-  float: right;
-  line-height: 80px;
-  margin-right: 40px;
-  cursor: pointer;
-  display: none;
-}
-
-#check {
-  display: none;
-}
-
-section {
-  background: url(fondo.jpg) no-repeat;
-  background-size: cover;
-  background-position: center center;
-  height: calc(100vh - 80px);
-}
-
-/* animaciones  para movil y cambiar el header por un boton*/
-
-@media (max-width: 952px) {
-  .enlace {
-    padding-left: 20px;
-  }
-  nav ul li a {
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 1400px) {
-  .checkbtn {
-    display: block;
-  }
-  ul {
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: #F5DA81;
-    top: 80px;
-    left: -100%;
-    text-align: center;
-    transition: all 0.5s;
-  }
-  nav ul li {
-    display: block;
-    margin: 50px 0;
-    line-height: 30px;
-    text-decoration: center;
-  }
-  nav ul li a {
-    font-size: 20px;
-  }
-  li a:hover,
-  li a.active {
-    background: none;
-    color: white;
-    font-size: 21;
-  }
-  #check:checked ~ ul {
-    left: 0;
-  }
-}
-
-body {
-    text-align: center;
-   
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-ol{
-    list-style: none;
-}
 
 .header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-top: 170px;
-    
-}
-.header{
-    height: 60vh !important;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../imagenes/app.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -179,7 +28,7 @@ p {
 
 .btn{
     margin-top: 30px;
-    padding: 6px;
+    padding: 10px;
     border-radius: 12px;
     background-color: rgba(254, 204, 111, 0.4);
     color: white;
@@ -189,9 +38,7 @@ p {
 .btn:hover{
     background: none;
 }
-.btn-home{
-    display: flex
-}
+
 .btn-home a{
     margin: 0 10px;
 }
@@ -205,8 +52,9 @@ p {
 }
 
 .sau{
-    padding: 30px;
-    background-color: black;
+    padding: 40px;
+    background-color: dimgray;
+    text-align: center;
 }
 
 .box-container{
@@ -214,9 +62,12 @@ p {
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
+    text-align: center;
+   
 }
 .box-container .box9{
-    height: 11rem;
+    text-align: center;
+    height: 13rem;
     width: 17rem;
     background: #101010;
     text-align: center;
@@ -224,6 +75,8 @@ p {
     box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
     margin: 2rem;
     color: white;
+    
+    
 }
 
 .box-container .box9 i{
@@ -249,6 +102,7 @@ p {
 
 .about{
     background-color: #101010;
+    text-align: center;
 }
 .price{
     
@@ -262,8 +116,23 @@ p {
 
 .contact{
     padding-top: 20px;
-    background-color: black;
+    background-color: lightslategray ;
     padding-bottom: 0px;
+}
+
+.contact figure img {
+  width: 100%;
+  height: 400px;
+  border-radius: 50%;
+  transition: ease .5s;
+
+}
+.contact figure img:hover {
+  width: 100%;
+  height: 600px;
+  border-radius: 20px;
+  
+
 }
 
 @media  (max-width: 768px) {
