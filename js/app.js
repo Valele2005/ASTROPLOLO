@@ -15,11 +15,21 @@ window.addEventListener('load',() => {
             method: 'POST' , 
             body: datos
         }).then(Response => Response.json())
-        .then(datoss=> {
-            console.log(datoss);
-        })
+        .then(({success}) => {
+           if(success --- 1) {
+              location.href = 'home.php';
+           } else{
+            alert();
+           }
+        });
     }
     
+    function  alerta() {
+        alert.innerHTML =
+      <div class="alert alert-danger alert-dismissible fade show" role="alert">
+    
+
+    }
      button.addEventListener('submit' , (e) => {
         e.preventDefault();
 
