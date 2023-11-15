@@ -19,28 +19,28 @@
 <!--formulario -->
 <div class="formulario">
     <h1>Registro</h1>
-    <form method="get">
+    <form action="../php/registro.php" method="POST">
         <div class="username">
-          <input type="text" required>
+          <input name="nombre" type="text" required>  
           <label>Nombres</label>
         </div>
-        <div class="username">
-            <input type="text" required>
+        <div   class="username">
+            <input name="apellidos" type="text" required>
             <label>Apellidos</label>
           </div>
           <div class="username">
-            <input type="text" required>
+            <input name="correo" type="text" required>
             <label>Correo</label>
           </div>  
         <div class="username">
-            <input type="password" required>
+            <input name="contrasena" type="password" required>
             <label>Contraseña</label>
         </div>
-        <div class="username">
-            <input type="tel" required>
+        <div name="telefono "class="username">
+            <input name="telefono" type="tel" required>
             <label>Numero de contacto</label>
         </div>
-          <input type="submit"  value="Registro">
+       <button name="boton">Registrarse</button>
            
     </form>
 </div>

@@ -25,25 +25,25 @@
       </a>
       <h2 class="tituloheader" align="center"> PortPollo 🐔</h2>
       <ul>
-        <li><a href="index.html">inicio</a></li>
-        <li><a href="paginas/catalogo.html">Catalogo</a></li>
-        <li><a href="paginas/ubicacion.html">Ubicacion</a></li>
-        <li><a href="paginas/pagapp.html">App Movil</a></li>
-        <li><a href="paginas/contacto.html">Quejas</a>|</li>
-        <li><a href="paginas/contacto.html">Contacto</a></li>
+        <li><a href="index.php">inicio</a></li>
+        <li><a href="paginas/catalogo.php">Catalogo</a></li>
+        <li><a href="paginas/ubicacion.php">Ubicacion</a></li>
+        <li><a href="paginas/pagapp.php">App Movil</a></li>
+        <li><a href="paginas/contacto.php">Quejas</a>|</li>
+        <li><a href="paginas/contacto.php">Inicio Sesion</a></li>
       </ul>
     </nav>
 
     <section id="hero">
       <h1>PortPollo<br /></h1>
       <p>DISTRIBUIDORES</p>
-      <form action="paginas/catalogo.html">
+      <form action="paginas/catalogo.php">
         <button>
           Productos Disponibles!<br />
           Ir Ahora!
         </button>
       </form>
-      <form action="paginas/iniciarsesion.html">
+      <form action="paginas/iniciarsesion.php">
         <button>
          Iniciar Sesion
         </button>
@@ -112,7 +112,7 @@
               nobis quia recusandae corporis quod cupiditate aliquid esse eum
               fugit odit, explicabo a.
             </p>
-            <a href="paginas/ubicacion.html">mas info</a>
+            <a href="paginas/ubicacion.php">mas info</a>
           </div>
         </div>
         <div class="cards-container1">
@@ -127,7 +127,7 @@
               nobis quia recusandae corporis quod cupiditate aliquid esse eum
               fugit odit, explicabo a.
             </p>
-            <a href="paginas/ubicacion.html">mas info</a>
+            <a href="paginas/ubicacion.php">mas info</a>
           </div>
         </div>
         <div class="cards-container1">
@@ -142,7 +142,7 @@
               nobis quia recusandae corporis quod cupiditate aliquid esse eum
               fugit odit, explicabo a.
             </p>
-            <a href="paginas/ubicacion.html">mas info</a>
+            <a href="paginas/ubicacion.php">mas info</a>
           </div>
         </div>
     </section>
